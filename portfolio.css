@@ -8,6 +8,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #333333;
+    padding: 20px;
+    margin: 0px;
 }
 
 p {
@@ -20,10 +22,15 @@ nav li a {
     display: block;
 }
 
+nav li a:hover {
+    background-color: #414141;
+}
+
 nav li {
     display: inline;
     color: white;
     padding: 0px 16px;
+    text-align: center;
 }
 
 
