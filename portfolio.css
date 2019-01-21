@@ -13,16 +13,21 @@ p {
     color: #414141;
 }
 
+nav li a {
+    display: block;
+}
+
 nav li {
     display: inline;
     color: white;
-    padding: 0px, 16px;
+    padding: 14px, 16px;
 }
+
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #4400ff;
+    background-color: #5500ff;
 }
