@@ -18,26 +18,25 @@ p {
     margin: 0px;
 }
 
+nav li {
+    float: left;
+}
+
 nav li a {
     display: block;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav li a:hover {
     background-color: #414141;
 }
 
-nav li {
-    display: inline;
-    color: white;
-    padding: 0px 16px;
-    text-align: center;
-}
-
-
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 16px 16px;
     overflow: hidden;
     background-color: #6000ff;
 }
