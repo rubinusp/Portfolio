@@ -40,3 +40,15 @@ nav ul {
     overflow: hidden;
     background-color: #6000ff;
 }
+
+section {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+}
+
+article {
+    flex: 4;
+}
